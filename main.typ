@@ -1,4 +1,5 @@
 #import "@preview/diatypst:0.9.3": *
+#import "architecture_figure.typ": architecture-diagram
 
 #show bibliography: none
 #bibliography("references.bib", style: "ieee")
@@ -16,4 +17,11 @@
   bg-color:rgb("#F5EFFF"),
   theme: "full",
   footer-subtitle: "Download slides: github@mithe24/midway-seminar",
+)
+
+= Architecture
+== Architecture Overview
+#figure(
+  architecture-diagram(diagram-scale: 0.7),
+  caption: [Systems Architecture],
 )
