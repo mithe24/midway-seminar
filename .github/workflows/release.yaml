@@ -1,0 +1,25 @@
+name: Release PDF
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: typst-community/setup-typst@v4
+
+      - name: Compile Typst document
+        run: typst compile main.typ main.pdf
+
+      - name: Create release
+        uses: softprops/action-gh-release@v3
+        with:
+          files: main.pdf
+          generate_release_notes: true
