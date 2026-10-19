@@ -1,0 +1,38 @@
+name: Check Typst formatting
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '**/*.typ'
+      - '.github/workflows/format.yml'
+  pull_request:
+    branches:
+      - main
+      - master
+    paths:
+      - '**/*.typ'
+      - '.github/workflows/format.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  format:
+    name: Check formatting
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install typstyle
+        uses: taiki-e/install-action@v2
+        with:
+          tool: typstyle
+
+      - name: Check formatting
+        run: typstyle --check .
