@@ -8,13 +8,12 @@
   // Options
   count: "number",
   theme: "full",
-  footer-subtitle: "Download slides: github@mithe24/midway-seminar"
+  footer-subtitle: "Download slides: github@mithe24/midway-seminar",
 )
 
 = First Section
 == First Slide
 #lorem(20)
-
 == Scond Slide
 #lorem(20)
 
