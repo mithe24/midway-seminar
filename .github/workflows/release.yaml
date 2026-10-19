@@ -16,10 +16,10 @@ jobs:
       - uses: typst-community/setup-typst@v4
 
       - name: Compile Typst document
-        run: typst compile main.typ main.pdf
+        run: typst compile main.typ slides.pdf
 
       - name: Create release
         uses: softprops/action-gh-release@v3
         with:
-          files: main.pdf
+          files: slides.pdf
           generate_release_notes: true
