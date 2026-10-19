@@ -20,3 +20,5 @@
 
 #include "sections/intro.typ"
 #include "sections/bmc.typ"
+= Architecture
+== Architecture Overview

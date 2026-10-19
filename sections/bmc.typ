@@ -1,3 +1,5 @@
+#import "../figures/architecture_figure.typ": architecture-diagram
+
 #set text(lang: "en")
 
 #let accent = rgb("#284B63")
