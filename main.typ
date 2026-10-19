@@ -8,7 +8,7 @@
 #show: slides.with(
   title: "imap",
   subtitle: "Indoor mapping software for space and building management",
-  date: "01.07.2024",
+  date: "04.11.2026",
   authors: ("Marcus Olsen", "Mark Johansen", "Mikkel Thestrup"),
   // Options
   count: "number",
