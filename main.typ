@@ -8,6 +8,7 @@
   // Options
   count: "number",
   theme: "full",
+  footer-subtitle: "Download slides: github@mithe24/midway-seminar"
 )
 
 = First Section
