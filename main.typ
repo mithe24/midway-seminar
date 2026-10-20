@@ -13,7 +13,7 @@
   // Options
   count: "number",
   title-color: rgb("#284B63"),
-  bg-color:rgb("#F5EFFF"),
+  bg-color: rgb("#F5EFFF"),
   theme: "full",
   footer-subtitle: "Download slides: github@mithe24/midway-seminar",
 )
