@@ -15,3 +15,6 @@
   theme: "full",
   footer-subtitle: "Download slides: github@mithe24/midway-seminar",
 )
+
+#include "sections/intro.typ"
+#include "sections/bmc.typ"
