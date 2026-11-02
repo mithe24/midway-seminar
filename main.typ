@@ -1,5 +1,10 @@
 #import "@preview/diatypst:0.9.3": *
 
+#show bibliography: none
+#bibliography("references.bib", style: "ieee")
+#set cite(style: "chicago-notes")
+
+
 #show: slides.with(
   title: "imap",
   subtitle: "Indoor mapping software for space and building management",
@@ -15,4 +20,3 @@
 
 #include "sections/intro.typ"
 #include "sections/bmc.typ"
-#include "sections/architecture.typ"
