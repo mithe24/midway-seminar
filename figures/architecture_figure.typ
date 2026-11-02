@@ -8,8 +8,14 @@
 
     let line-width = 0.8pt * diagram-scale
 
-    let frontend = (stroke: line-width + black, fill: rgb("#284B63").lighten(80%))
-    let backend = (stroke: line-width + black, fill: rgb("#284B63").lighten(80%))
+    let frontend = (
+      stroke: line-width + black,
+      fill: rgb("#284B63").lighten(80%),
+    )
+    let backend = (
+      stroke: line-width + black,
+      fill: rgb("#284B63").lighten(80%),
+    )
     let lib = (stroke: line-width + black, fill: rgb("#284B63").lighten(80%))
     let arrow = (end: ">", fill: black)
 
