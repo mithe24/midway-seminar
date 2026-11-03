@@ -21,8 +21,9 @@
     - Map that shows places with active issues.
   ],
   [
-    *Backend CRUD & Map Engine*
+    *Backend CRUD*
     - Django API handling tickets, location data, and user roles.
+    *Map Engine*
     - Map Rendering Engine rendering indoor building layouts using GeoJSON/IMDF.
   ],
 )
