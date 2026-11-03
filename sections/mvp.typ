@@ -26,20 +26,21 @@
     - Map Rendering Engine rendering indoor building layouts using GeoJSON/IMDF.
   ],
 )
-== Omitted features for the MVP
-*Advanced integrations*
-- Deep integration with software already in use.
-- Focus on keeping the web interface and dashboard standalone.
-*Over-engineered Backend*
-- Utilizing Django for faster development times.
-- Accepting the overhead trade-off.
-
-== MVP validation and testing
-*Measuring time-to-report*
-- Measure whether reporting issues through the web interface cuts down on time spent.
-
-*User preference*
-- Interview students, teachers and visitors to test if they prefer a QR-code solution.
-
-*Maintenance Efficiency*
-- Track whether staff experience faster response times and clearer information with the enhanced structure.
+== Omissions and testing
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 1em,
+  [
+    *Omissions*
+    - Deep integration with software already in use.
+    - Focus on keeping the web interface and dashboard standalone.
+    - Utilizing Django for faster development times.
+    - Accepting the overhead trade-off.
+  ],
+  [
+    *Validation and testing*
+    - Measure whether reporting issues through the web interface cuts down on time spent.
+    - Interview students, teachers and visitors to test if they prefer a QR-code solution.
+    - Track whether staff experience faster response times and clearer information with the enhanced structure.
+  ],
+)
