@@ -21,7 +21,6 @@
     grid.cell(colspan: 2, rowspan: 2)[
       #box-title[8\. Key partners]
       - SDU IT and campus maintenance
-      - Room data
       - SDU staff for testing
     ],
     grid.cell(colspan: 2)[
@@ -34,11 +33,10 @@
     grid.cell(colspan: 2, rowspan: 2)[
       #box-title[2\. Value propositions]
       - Scan QR, report an issue in 30 sec.
-      - No app and no login
       - One task list for maintenance
       - Faster map of rooms with issues
       - Faster repairs
-      - Less friction for reports
+      - Less friction for reports, categorizing
     ],
     grid.cell(colspan: 2)[
       #box-title[4\. Customer relationships]
@@ -50,7 +48,7 @@
       #box-title[1\. Customer segments]
       - Payer: university facilities departments
       - Users:
-        - Students and teachers
+        - Students, teachers, any reporter
         - Maintenance staff
     ],
     grid.cell(colspan: 2)[

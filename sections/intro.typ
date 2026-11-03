@@ -55,7 +55,7 @@
 == Why imap?
 
 #align(center, text(1.1em, style: "italic")[
-  "The projector is broken. Who do I tell?"
+  "The lights and many of outlets do not work. Who do I tell?"
 ])
 
 #grid(
@@ -65,8 +65,8 @@
     / The problem:
       - Unclear who to contact
       - Reports scattered across email and phone
-      - Missing room, category and status
-      - Maintenance has no overview
+      - Possible inaccuracies
+      - Maintenance has limited overview
   ],
   [
     / Our answer:
@@ -89,14 +89,14 @@
     lane(
       [Reporter],
       step[Spots the issue],
-      step(pain: [Who is it?])[Looks for a contact],
-      step[Takes a photo],
+      step(pain: [Who to write/call?])[Looks for a contact],
+      step(pain: [Time attaching images])[Takes a photo],
       step(pain: [Takes a long time])[Writes a long email],
     ),
     lane(
       [Maintenance],
       step[Receives email],
-      step(pain: [Messy format])[Reads through the email],
+      step(pain: [Must categorize])[Reads through the email],
       step(pain: [Wrong room no.])[Guesses the room],
       step(pain: [Needs a human])[Files it under building and room],
     ),
@@ -110,7 +110,7 @@
       [Reporter],
       step[Spots the issue],
       step[Scans QR code],
-      step[Picks category, optional photo],
+      step[Picks category, desc, optional photo/email],
     ),
     lane(
       [Maintenance],
@@ -120,7 +120,7 @@
   )
   v(1fr)
   align(center, text(1.4em, fill: accent, weight: "bold")[
-    8 steps and several days #sym.arrow 5 steps, no manual sorting
+    8 steps and several days #sym.arrow 5 steps, less manual work
   ])
   v(1fr)
 })

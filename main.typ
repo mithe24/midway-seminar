@@ -2,7 +2,7 @@
 
 #show: slides.with(
   title: "imap",
-  subtitle: "Indoor mapping software for space and building management",
+  subtitle: "Indoor Mapping and Maintenance Management Software for Bigger Buildings",
   date: "04.11.2026",
   authors: ("Marcus Olsen", "Mark Johansen", "Mikkel Thestrup"),
   // Options
