@@ -17,3 +17,4 @@
 #include "sections/bmc.typ"
 #include "sections/architecture.typ"
 #include "sections/knownassumedtest.typ"
+#include "sections/mvp.typ"
