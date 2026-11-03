@@ -36,6 +36,7 @@
     - Focus on keeping the web interface and dashboard standalone.
     - Utilizing Django for faster development times.
     - Accepting the overhead trade-off.
+    - Accepting the difficulties with preventing spam/malicous attacks. 
   ],
   [
     *Validation and testing*
